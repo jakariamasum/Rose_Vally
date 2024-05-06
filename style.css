@@ -188,6 +188,7 @@ header {
   margin-right: 10px;
 }
 
+/* newslater */
 #newsletter {
   margin: 128px 0;
 }
@@ -219,7 +220,6 @@ footer {
   color: #fff;
   background: #111010;
   width: 100%;
-  /* height: 49px; */
   padding: 40px 0;
 }
 
@@ -252,4 +252,123 @@ footer {
   margin-top: 32px;
   font-size: 16px;
   font-weight: 400;
+}
+
+
+
+/* For mobile devices */
+@media only screen and (max-width: 768px) {
+  .banner {
+    flex-direction: column-reverse; 
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .banner .banner-text * {
+    margin-bottom: 20px; 
+    max-width: 100%; 
+    text-align: center;
+  }
+
+  .banner .banner-text h1 {
+    font-size: 36px; 
+  }
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-content .flower-img {
+    border-radius: 300px 300px 0 0; 
+    padding: 0;
+    height: auto;
+  }
+
+  .section-content .flower p {
+    font-size: 18px; 
+    line-height: 25px; 
+    margin-top: 10px; 
+  }
+  .services {
+    flex-direction: column; 
+    margin: 30px 0; 
+    padding: 30px; 
+    gap: 20px; 
+    text-align: center; 
+  }
+
+  .services > div {
+    width: 100%; 
+  }
+
+  .services p {
+    font-size: 18px;
+  }
+  .hot-deal {
+    padding: 60px 0;
+    flex-direction: column; 
+  }
+
+  .hot-deal .hot-deal-text {
+    width: 100%; 
+    max-width: none; 
+  }
+
+   .hot-deal-img {
+    width: 100%; 
+  }
+
+  .hot-deal .hot-deal-text h2 {
+    font-size: 30px; 
+  }
+  .instagram-container {
+    margin-top: 50px; 
+  }
+
+  .instagram-content {
+    flex-wrap: wrap; 
+    justify-content: flex-start;
+    margin: 0 20px; 
+  }
+
+  .instagram-content img {
+    margin-right: 0; 
+    margin-bottom: 10px; 
+    width: 50%; 
+  }
+  #newsletter {
+    margin: 64px 0; 
+  }
+
+  .newsletter-main {
+    padding: 64px 0; 
+  }
+
+  #newsletter form {
+    flex-direction: column;
+    gap: 20px; 
+  }
+
+  #newsletter form input {
+    width: 100%;
+  }
+  footer {
+    padding: 24px 0; 
+  }
+
+  .footer-text .flower-text,
+  .footer-text .shop-text {
+    font-size: 32px; 
+  }
+
+  .footer-para {
+    font-size: 14px; 
+    line-height: 24px;
+    margin-top: 16px; 
+  }
+
+  .all-rights {
+    font-size: 12px; 
+    margin-top: 24px; 
+  }
 }
