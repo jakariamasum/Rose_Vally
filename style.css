@@ -118,3 +118,30 @@ header {
     margin-top: 16px;
   }
   
+.title{
+    text-align: center;
+    /* width: 550px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+
+/* characteristics */
+
+.service{
+    background: #f4f4f4;
+    margin: 50px 180px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+.service p{
+    font-size: 22px;
+    color: #272727CC;
+    font-weight: 600;
+}
